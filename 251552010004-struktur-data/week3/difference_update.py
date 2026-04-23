@@ -1,0 +1,5 @@
+set_e1 = {1,2,3,4,7}
+set_e2 = {4,5,6,7,8}
+set_e2.difference_update(set_e1)
+
+print('difference_update(set_e2):',set_e2)

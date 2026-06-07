@@ -2,7 +2,7 @@ class Graph:
     def __init__(self):
         self.graph = {
             "A": ["B"],
-            "B": ["A", "C"],
+            "B": ["A",  "C"],
             "C": ["B"]
         }
 

@@ -12,7 +12,7 @@ cari = int(input("masukkan angka yang ingin dicari: "))
 hasil = linear_search(data, cari)
 
 if hasil != -1:
-    print("angka ditemukan di index:", hasil)
+    print("angka ditemukan di index: ", hasil)
 
 else:
     print("angka tidak ditemukan dalam array: ")
